@@ -1,8 +1,8 @@
 ##############
-Dojo Bootstrap
+Growers Nation Dojo Theme
 ##############
 
-Bootstrap theme for Dojo.
+Based on the Dojo Bootstrap project developed by thesociable: https://github.com/thesociable/dbootstrap
 
 .. image:: https://raw.github.com/thesociable/dbootstrap/master/resource/preview.png
 
@@ -10,7 +10,7 @@ Bootstrap theme for Dojo.
 Get The Code
 ************
 
-    $ git clone --recursive git://github.com/thesociable/dbootstrap.git
+    $ git clone --recursive git://github.com/GrowersNation/dbootstrap.git
 
 ******************
 Build Requirements
