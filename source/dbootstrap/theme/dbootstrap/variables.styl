@@ -17,10 +17,19 @@ $grayLight = #999;
 $grayLighter = #eee;
 $white = #fff;
 
+// Greens
+// Following styles obtained from colour theme developed by Tom Rogers
+// -------------------------
+$greenLight = #678941;
+$greenLightPale = #BDD0A0;
+$greenDark = #4E772C;
+$greenDarkPale = #98A38E;
 
 // Accent colors
 // -------------------------
-$blue = #049cdb;
+// blue & bluePale from colour theme developed by Tom Rogers
+$blue = #78A0D5;
+$bluePale = #D2E2F4;
 $blueDark = #0064cd;
 $green = #46a546;
 $red = #9d261d;
@@ -39,7 +48,7 @@ $outlineColor = $gray;
 
 // Links
 // -------------------------
-$linkColor = #08c;
+$linkColor = $blue;
 $linkColorHover = darken($linkColor, 15%);
 
 
@@ -114,7 +123,7 @@ $dropdownLinkColorHover = $white;
 $dropdownLinkBackgroundHover = $dropdownLinkBackgroundActive;
 
 $dropdownLinkColorActive = $dropdownLinkColor;
-$dropdownLinkBackgroundActive = $linkColor;
+$dropdownLinkBackgroundActive = $greenLightPale;
 
 // Accordions
 // -------------------------
@@ -178,12 +187,12 @@ $navbarLinkBackgroundActive = darken($navbarBackground, 5%);
 $navbarBrandColor = $navbarLinkColor;
 
 // Inverted navbar
-$navbarInverseBackground = #111111;
-$navbarInverseBackgroundHighlight = #222222;
-$navbarInverseBorder = #252525;
+$navbarInverseBackground = $greenLight;
+$navbarInverseBackgroundHighlight = $greenDark;
+$navbarInverseBorder = $greenLight;
 
-$navbarInverseText = $grayLight;
-$navbarInverseLinkColor = $grayLight;
+$navbarInverseText = $greenLightPale;
+$navbarInverseLinkColor = $greenLightPale;
 $navbarInverseLinkColorHover = $white;
 $navbarInverseLinkColorActive = $navbarInverseLinkColorHover;
 $navbarInverseLinkBackgroundHover = transparent;
@@ -192,7 +201,7 @@ $navbarInverseLinkBackgroundActive = $navbarInverseBackground;
 $navbarInverseSearchBackground = lighten($navbarInverseBackground, 25%);
 $navbarInverseSearchBackgroundFocus = $white;
 $navbarInverseSearchBorder = $navbarInverseBackground;
-$navbarInverseSearchPlaceholderColor = #ccc;
+$navbarInverseSearchPlaceholderColor = $greenDark;
 
 $navbarInverseBrandColor = $white;
 
@@ -260,7 +269,7 @@ $gridBorder = $tableBorder;
 $gridBorderRadius = 3px;
 $gridRowEvenBackground = $white;
 $gridRowOddBackground = $grayLighter;
-$gridSelectedBackground = $blue;
+$gridSelectedBackground = $greenLight;
 $gridSelectedColor = $white;
 $gridBackgroundHover = lighten($gridSelectedBackground, 20%);
 
